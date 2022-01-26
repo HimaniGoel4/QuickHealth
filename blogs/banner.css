@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bannerblog{
+    background-color: #c8c6fc;
+    background: url(56.png);
+    background-size: contain;
+    background-repeat:repeat;
+    border: transparent;
+    border-radius: 70px;
+    margin: 20px;
+    
+}
+.completeblog{
+    /* background: url(56.png); */
+   
+    /* background-size: contain; */
+    /* background-repeat:repeat; */
+    /* margin: 30px 30px; */
+    /* border: transparent; */
+    /* border-radius: 40px; */
+}
+
+.blogtext h1{
+   
+   /* padding-top: 10px;
+   padding-bottom: 10px; */
+   margin: 0px 300px;
+   margin-bottom: 30px;
+    color: #202F51;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: Lato-Regular, Arial, sans-serif;
+    text-align: center;
+    background-color: white;
+    border: solid transparent;
+    border-radius: 20px;
+    position: relative;
+    top: 20px;
+
+    
+}
+.maincontent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr  1fr ;
+    
+  
+}
+.maincontent .blog{
+   
+    text-align: center;
+     padding-top: 15px;
+     padding-bottom: 10px;
+     border-radius: 30px;
+     background-repeat: no-repeat;
+     background-size: cover; 
+     /* border: 5px solid rgb(0, 0, 0); */
+     margin: 20px 20px;
+     background-color: white;
+     
+}
+
+
+
+.blog img{
+    width: 280px;
+    height: 500px;
+    border: 2px solid #202F51;;
+    border-radius: 15px;
+
+}
+
+.blog p{
+    padding: 10px 4px;
+    display: flex;
+    width: 270px;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: Lato-Regular, Arial, sans-serif;
+    color: #202F51;
+    background-color: white;
+    /* border: solid #202F51;
+    border-radius: 10px; */
+    margin: auto;
+    
+}
+.blog p:hover{
+    text-decoration: underline;
+
+}
+
+.buttons{
+    display: flex;
+    margin: 0px 250px;
+    padding: 0px 20px;
+    margin-top: 25px;
+    
+    padding-bottom: 40px;
+    justify-content: space-between;
+}
+.buttons button{
+    padding: 10px  20px;
+    background-color: white;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.buttons button a{
+    text-decoration: none;
+    color: #202F51;
+}
+.buttons button a:hover{
+    color:#202F51;
+    background-color: white;
+    transition: all 0.2s ease-in-out;
+    text-decoration: underline;
+}
+.buttons  button:hover{
+    color:#202F51;
+    background-color: white; 
+    transition: all 0.2s ease-in-out;
+    }
+   
+    

@@ -1,0 +1,399 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'poppins', sans-serif; */
+}
+
+.header{
+    width:100%;
+    height:100vh;
+    background-image: url(hospital.jpg);
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+#navbar:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.logo{
+    width: 150px;
+    margin: 20px;
+    cursor: pointer;
+}
+nav ul{
+    background: #7868E6;
+    width: 100%;
+    margin-top:10px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 20px 30px;
+    color: #fff;
+}
+#nav-area>ul>li {
+	float: left;
+	position: relative;
+}
+.text{
+    padding: 20px 8%;
+}
+nav.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px 8%;
+    background: #7868E6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav.sticky ul{
+    width: auto;
+}
+#navbar ul li a{
+    text-decoration: none;
+	color: #fff;
+    display: block;
+}
+#navbar ul li:hover a {
+	background: #262626;
+}
+#navbar ul ul {
+	position: absolute;
+	padding: 0;
+	min-width: 160px;
+	display: none;
+	top: 100%;
+	left: 0;
+}
+#navbar ul li:hover>ul {
+	display: block;
+}
+
+
+
+
+
+/* deepanshu css style ===================================================================*/
+
+/* footer related content shtarts here  */
+/* main css for whole footer  */
+footer{
+    width: 100%;
+    bottom: 0;
+    background: #6b5ecf;
+    color: #fff;
+    font-size: 12px;
+    font-family: Lato-Regular, Arial, sans-serif;
+    line-height: 20px;  
+}
+
+/* main body section css whole div  */
+.rowsection{
+    display: flex;    
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-bottom: 0px;
+ 
+    
+}
+
+/* targeting quicklinks on mainbody of footer  */
+.rows  {
+    padding: 20px;
+    
+}
+.rows ul li {
+    list-style-type: none;
+}
+.rows ul li a {
+    text-decoration: none;
+    color: #fff;   
+}
+.rows ul li a:hover{
+    color: #000000;
+    text-decoration: underline;
+    transition: all 0.2s ease-in-out;
+    
+}
+.rows ul li a:active{
+    color: grey;
+}
+
+/* targeting whole ask us anything section  */
+.askusanything {
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    background: #8e8bf0;
+    padding: 20px 10px ;
+}
+
+.askusanything:hover{
+    text-shadow: 2px 2px black;
+}
+
+/* targeting user, question symbol with AUA test  */
+.askusanything #user{
+    font-size: 35px;
+    color:#fff ;
+}
+        
+.askusanything #question{
+    font-size: 25px;
+    position: relative;
+    bottom: 15px;
+    right: 7px;
+    color:#fff;
+}
+    
+.askusanything #auatext{
+    font-size: 35px;
+    text-decoration: none;
+    color: #fff;
+    font-family: Cardo-Bold,Times New Roman,serif;
+    font-weight: bold;
+    padding-top: 9px;
+}
+
+/* horizontal line after main body footer */
+hr{
+    width: 98%;
+    color: #8e8bf0;
+    border-bottom: 1px solid #8c82d3;
+    margin: 20px auto;
+}
+
+/* first bar after main body  */
+.iconbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px  70px;
+}
+
+ /* targeting social icons  */
+ .sicons  .fab {
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+ }
+ .sicons  .fab:hover{
+    color: #000000;
+    transition: all 0.2s ease-in-out;
+ }
+ .sicons  .fab:active{
+     color: grey;
+ }
+
+ /* targeting PDC words */
+ .pdc a{ 
+    padding: 8px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+ }
+ .pdc a:hover{
+    color:#000000 ;
+    transition: all 0.2s ease-in-out;
+ }
+ .pdc a:active{
+    color: grey;
+ }
+
+ /* CSS for division b/w PDC words  */
+ .pdc #Contact{
+    border-left: 1px solid #fff;
+ }
+ .pdc #Disclaimer{
+    border-left: 1px solid #fff;
+}
+
+/* targeting copyright text section  */
+.copyright{
+    font-weight: bold;  
+}
+ /* grid footer quicklinks section  */
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 30px;
+    justify-content: center ;
+    align-items: center;
+}
+.Fquicklinks{
+    border: 1px solid #716aac;
+    padding: 10px;
+    text-align: center;
+    /* margin: 1px; */
+}
+.Fquicklinks a{
+    color: #fff;
+    font-size: 12px;
+}
+.Fquicklinks a:hover{
+    color:#000000 ;
+    transition: all 0.2s ease-in-out;
+}
+.Fquicklinks a:active{
+    color: grey;
+}
+
+/* footer end share price section  */
+.shareprice{
+    margin-top: 30px;
+    background-color: #fff;
+    height: 150px;
+    text-align: center;
+   
+}
+.shareprice  span{
+    display:inline-block;
+    border: 1px solid grey;
+    color: black;
+    padding: 5px;
+    margin-top: 20px;
+    background-color: rgb(233, 233, 233);
+}
+
+
+/* Blogs css */
+.bannerblog{
+    background-color: #c8c6fc;
+    background: url(56.png);
+    background-size: contain;
+    background-repeat:repeat;
+    border: transparent;
+    border-radius: 70px;
+    margin: 20px;
+    
+}
+/* .completeblog{
+    /* background: url(56.png); */
+   
+    /* background-size: contain; */
+    /* background-repeat:repeat; */
+    /* margin: 30px 30px; */
+    /* border: transparent; */
+    /* border-radius: 40px; */
+
+
+.blogtext h1{
+   
+   /* padding-top: 10px;
+   padding-bottom: 10px; */
+   margin: 0px 300px;
+   margin-bottom: 30px;
+    color: #202F51;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: Lato-Regular, Arial, sans-serif;
+    text-align: center;
+    background-color: white;
+    border: solid transparent;
+    border-radius: 20px;
+    position: relative;
+    top: 20px;
+
+    
+}
+.maincontent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr  1fr ;
+    
+  
+}
+.maincontent .blog{
+   
+    text-align: center;
+     padding-top: 15px;
+     padding-bottom: 10px;
+     border-radius: 30px;
+     background-repeat: no-repeat;
+     background-size: cover; 
+     /* border: 5px solid rgb(0, 0, 0); */
+     margin: 20px 20px;
+     background-color: white;
+     
+}
+
+
+
+.blog img{
+    width: 280px;
+    height: 500px;
+    border: 2px solid #202F51;;
+    border-radius: 15px;
+
+}
+
+.blog p{
+    padding: 10px 4px;
+    display: flex;
+    width: 270px;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: Lato-Regular, Arial, sans-serif;
+    color: #202F51;
+    background-color: white;
+    /* border: solid #202F51;
+    border-radius: 10px; */
+    margin: auto;
+    
+}
+.blog p:hover{
+    text-decoration: underline;
+
+}
+
+.buttons{
+    display: flex;
+    margin: 0px 250px;
+    padding: 0px 20px;
+    margin-top: 25px;
+    
+    padding-bottom: 40px;
+    justify-content: space-between;
+}
+.buttons button{
+    padding: 10px  20px;
+    background-color: white;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.buttons button a{
+    text-decoration: none;
+    color: #202F51;
+}
+.buttons button a:hover{
+    color:#202F51;
+    background-color: white;
+    transition: all 0.2s ease-in-out;
+    text-decoration: underline;
+}
+.buttons  button:hover{
+    color:#202F51;
+    background-color: white; 
+    transition: all 0.2s ease-in-out;
+    }
+   
+    /* Blogs css ends here======================================================================== */
